@@ -76,6 +76,7 @@ Packages/TCL
 Packages/Text
 Packages/Textile
 Packages/Theme - Default
+Packages/User/Default*
 Packages/Vintage
 Packages/XML
 Packages/YAML
