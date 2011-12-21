@@ -1,0 +1,35 @@
+[
+	{ "caption": "-"},
+	{
+		"caption": "Upload",
+		"command": "sftp_show_sub",
+		"children":
+		[
+			{ "command": "sftp_unconfigured", "caption": "Unconfigured" },
+			{ "command": "sftp_upload_file", "caption": "Upload File" },
+			{ "command": "sftp_upload_open_files", "caption": "Upload Open Files" },
+			{ "command": "sftp_sync_up", "caption": "Sync Local -> Remote…" }
+		]
+	},
+	{
+		"caption": "Download",
+		"command": "sftp_show_sub",
+		"children":
+		[
+			{ "command": "sftp_unconfigured", "caption": "Unconfigured" },
+			{ "command": "sftp_download_file", "caption": "Download File" },
+			{ "command": "sftp_sync_down", "caption": "Sync Remote -> Local…" }
+		]
+	},
+	{
+		"caption": "More Remote",
+		"command": "sftp_show_sub",
+		"children":
+		[
+			{ "command": "sftp_unconfigured", "caption": "Unconfigured" },
+			{ "command": "sftp_browse", "caption": "Browse Remote…" },
+			{ "command": "sftp_diff_remote_file", "caption": "Diff Remote File" },
+			{ "command": "sftp_sync_both", "caption": "Sync Both Directions…" }
+		]
+	}
+]

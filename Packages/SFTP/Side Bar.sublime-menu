@@ -1,0 +1,42 @@
+[
+	{ "caption": "-" },
+	{ "caption": "Edit SFTP/FTP Remote…", "command": "sftp_edit_config", "args": {"dirs": []} },
+	{ "caption": "Create SFTP/FTP Remote…", "command": "sftp_create_config", "args": {"dirs": []} },
+	{
+		"caption": "Upload",
+		"command": "sftp_show_sub",
+		"args": {"paths": []},
+		"children":
+		[
+			{ "caption": "Unconfigured", "command": "sftp_unconfigured", "args": {"paths": []} },
+			{ "caption": "Upload File", "command": "sftp_upload_file", "args": {"paths": []} },
+			{ "caption": "Upload Folder", "command": "sftp_upload_folder", "args": {"paths": []} },
+			{ "caption": "Sync Local -> Remote…", "command": "sftp_sync_up", "args": {"paths": []} }
+		]
+	},
+	{
+		"caption": "Download",
+		"command": "sftp_show_sub",
+		"args": {"paths": []},
+		"children":
+		[
+			{ "caption": "Unconfigured", "command": "sftp_unconfigured", "args": {"paths": []} },
+			{ "caption": "Download File", "command": "sftp_download_file", "args": {"paths": []} },
+			{ "caption": "Download Folder", "command": "sftp_download_folder", "args": {"paths": []} },
+			{ "caption": "Sync Remote -> Local…", "command": "sftp_sync_down", "args": {"paths": []} }
+		]
+	},
+	{
+		"caption": "More Remote",
+		"command": "sftp_show_sub",
+		"args": {"paths": []},
+		"children":
+		[
+			{ "caption": "Unconfigured", "command": "sftp_unconfigured", "args": {"paths": []} },
+			{ "caption": "Browse Remote…", "command": "sftp_browse", "args": {"paths": []} },
+			{ "caption": "Diff Remote File", "command": "sftp_diff_remote_file", "args": {"paths": []} },
+			{ "caption": "Sync Both Directions…", "command": "sftp_sync_both", "args": {"paths": []} }
+		]
+	},
+	{ "caption": "-" }
+]
