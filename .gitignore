@@ -80,3 +80,6 @@ Packages/User/Default*
 Packages/Vintage
 Packages/XML
 Packages/YAML
+
+# Don't show people my access keys!
+Packages/User/SublimeTweet.settings
