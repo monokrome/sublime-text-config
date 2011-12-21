@@ -11,6 +11,7 @@
 		"GoSublime",
 		"HexViewer",
 		"HTML5",
+		"HyperlinkHelper",
 		"Jinja2",
 		"Nodejs",
 		"Package Control",
@@ -21,6 +22,7 @@
 		"Sublime Tweet",
 		"sublime-split-navigation",
 		"Terminal",
-		"VintageEx"
+		"VintageEx",
+		"ZenCoding"
 	]
 }
