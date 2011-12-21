@@ -1,0 +1,9 @@
+include *.py
+exclude setup.py
+
+graft Support
+
+exclude *.JSON-tmLanguage
+exclude *.cache
+
+prune tests
