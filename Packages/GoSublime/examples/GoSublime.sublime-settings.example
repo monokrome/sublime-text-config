@@ -1,0 +1,10 @@
+ {
+	"gocode_cmd": "gocode",
+	
+	"gofmt_cmd": "gofmt",
+	
+	"gslint_cmd": "gotype",
+	"gslint_timeout": 500,
+	
+	"gocode_accepts_character_offsets": false
+}
