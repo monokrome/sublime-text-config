@@ -1,0 +1,11 @@
+[
+    {
+        "caption": "Tweet",
+        "command": "tweet"
+    }, 
+    {
+        "caption": "Twitter timeline",
+        "command": "read_tweets"
+    }
+
+]

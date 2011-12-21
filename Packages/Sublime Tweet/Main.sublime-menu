@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "n",
+        "id": "tools",
+        "children":
+        [
+            {
+                "command": "tweet",
+                "caption": "Tweet"
+            }, 
+            {
+                "command": "read_tweets",
+                "caption": "Read twitter timeline"
+            }
+        ]
+    }
+]
