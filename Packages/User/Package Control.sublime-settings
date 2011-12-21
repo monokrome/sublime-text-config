@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"CoffeeScript",
+		"Gist",
 		"Git",
 		"Package Control",
 		"SideBarGit"
