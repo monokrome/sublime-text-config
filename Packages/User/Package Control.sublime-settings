@@ -4,6 +4,7 @@
 	[
 		"CoffeeScript",
 		"Git",
-		"Package Control"
+		"Package Control",
+		"SideBarGit"
 	]
 }
