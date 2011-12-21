@@ -1,0 +1,3 @@
+[submodule "Packages/VintageEx"]
+	path = Packages/VintageEx
+	url = https://github.com/SublimeText/VintageEx.git
