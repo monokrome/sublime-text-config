@@ -1,0 +1,18 @@
+{
+	"auto_complete": true,
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"default_line_endings": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"gutter": true,
+	"ignored_packages":
+	[
+	],
+	"line_numbers": true,
+	"scroll_past_end": false,
+	"show_tab_close_buttons": false,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true,
+	"wrap_width": 79
+}

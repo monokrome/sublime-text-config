@@ -1,0 +1,9 @@
+{
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"Modelines",
+		"Package Control",
+		"Status Bar Extension"
+	]
+}

@@ -1,0 +1,7 @@
+/Package Control/
+
+*.ca-bundle
+*.ca-list
+*.last-run
+*.cache
+
